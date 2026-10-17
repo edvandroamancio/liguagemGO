@@ -14,14 +14,14 @@ func entradadados() {
 
 	fmt.Println("Digite seu nome")
 	fmt.Scan(&nome)
-	fmt.Println("Vamos calcular sua media", nome)
+	fmt.Println("Vamos calcular sua média", nome)
 
 	for i := 1; i <= 4; i++ {
-		fmt.Println("Digite seu nota", i)
+		fmt.Println("Digite sua nota", i)
 		fmt.Scan(&nota)
 		soma = soma + nota
 	}
 
-	fmt.Println(nome, "sua media é", soma/4)
+	fmt.Println(nome, "sua média é", soma/4)
 
 }
